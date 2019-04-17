@@ -19,15 +19,15 @@ Umbraco 7.14.0
 
 5. 进入CMS后台创建Data Types<sup>[[2]](javascript(0); "Property editor选择Umbraco Extending District")</sup> <sup>[[3]](javascript(0); "默认是二级联动，选中Three Tier则开启三级联动")</sup>, 如下图所示：
 
-    ![alt text](https://raw.githubusercontent.com/omp2013/UmbracoExtindingDocs/master/district/images/DataTypes.jpg "Data Types截图")
+    ![image](https://raw.githubusercontent.com/omp2013/UmbracoExtindingDocs/master/district/images/DataTypes.jpg)
 
 6. 进入Settings -- 创建Document Types调用创建的三级联动Data Types
 
-    ![alt text](https://raw.githubusercontent.com/omp2013/UmbracoExtindingDocs/master/district/images/doc_type.jpg "Document Types截图")
+    ![image](https://raw.githubusercontent.com/omp2013/UmbracoExtindingDocs/master/district/images/doc_type.jpg)
 
 7. 进入Content创建页面，如下图所示：
 
-    ![alt text](https://raw.githubusercontent.com/omp2013/UmbracoExtindingDocs/master/district/images/Rendering.jpg "Content截图")
+    ![image](https://raw.githubusercontent.com/omp2013/UmbracoExtindingDocs/master/district/images/Rendering.jpg)
 
 8. Templates模板调用
 ```C#
