@@ -5,9 +5,9 @@ UE.District组件是基于Umbraco CMS自定义开发的Data Types三级联动
 
 ### 基本要求
 
-Umbraco 7.14.0
+* Umbraco 7.14.0
 
-.NETFramework 4.5.2+
+* .NETFramework 4.5.2+
 
 ### 使用说明
 
