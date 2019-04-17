@@ -15,11 +15,11 @@ Umbraco 7.14.0
 2. 在VS中，继续使用NuGet安装[UE.District组件](https://www.nuget.org/packages/UmbracoExtending.District "点击获取UE.District组件")到创建的Umbraco 7.14.0项目中
 3. 发布站点并部署到IIS，浏览站点进行安装CMS
 
-4. 站点安装完成，将项目中`App_Data\ueDistrict.sql`导入到本项目的数据库中<sup>[[1]](javascript(0); "库中存在该表[dbo].[umbracoExtendingDistrict]，请忽略此步骤")</sup>
+4. 站点安装完成，将项目中`App_Data\ueDistrict.sql`导入到本项目的数据库中[`[1]`](javascript(0); "库中存在该表[dbo].[umbracoExtendingDistrict]，请忽略此步骤")
 
-5. 进入CMS后台创建Data Types<sup>[[2]](javascript(0); "Property editor选择Umbraco Extending District")</sup> <sup>[[3]](javascript(0); "默认是二级联动，选中Three Tier则开启三级联动")</sup>, 如下图所示：
+5. 进入CMS后台创建Data Types[`[2]`](javascript(0); "Property editor选择Umbraco Extending District") [`[3]`](javascript(0); "默认是二级联动，选中Three Tier则开启三级联动"), 如下图所示：
 
-    ![image](https://github.com/omp2013/UmbracoExtindingDocs/raw/master/district/images/DataTypes.jpg)
+    ![image](https://raw.githubusercontent.com/omp2013/UmbracoExtindingDocs/master/district/images/DataTypes.jpg)
 
 6. 进入Settings -- 创建Document Types调用创建的三级联动Data Types
 
@@ -42,8 +42,8 @@ var obj = UmbracoExtending.District.DistrictUtil.ResolveDistrict(item);
 
 ### 备注
 
-<sup>[1]</sup> 库中存在该表`[dbo].[umbracoExtendingDistrict]`，请忽略此步骤
+`[1]` 库中存在该表`[dbo].[umbracoExtendingDistrict]`，请忽略此步骤
 
-<sup>[2]</sup> `Property editor` 选择Umbraco Extending District
+`[2]` `Property editor` 选择Umbraco Extending District
 
-<sup>[3]</sup> 默认是二级联动，选中`Three Tier` 则开启三级联动
+`[3]` 默认是二级联动，选中`Three Tier` 则开启三级联动
