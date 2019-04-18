@@ -47,7 +47,7 @@ var provinces = DealerUtil.GetProvinces();
 </select>
 ```
 
-#### `根据省份触发城市列表接口地址`
+#### `根据省份触发城市列表接口`
 | 名称 | 内容 |
 | ---- | ---- |
 | 请求方式 | GET |
@@ -55,7 +55,7 @@ var provinces = DealerUtil.GetProvinces();
 | 接收参数 | code |
 | 接口地址 | /umbraco/UmbracoDealer/FrontendDistrict/GetCitys |
 
-#### `经销商接口地址`
+#### `经销商接口`
 | 名称 | 内容 |
 | ---- | ---- |
 | 请求方式 | GET |
