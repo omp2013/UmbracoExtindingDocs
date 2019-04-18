@@ -14,7 +14,7 @@
 
 ### 使用说明
 
-* #### 地址解析
+#### 地址解析
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用Geocoder方法实现地址解析
 
@@ -59,7 +59,7 @@ Geocoder方法
 ```
 
 
-* #### 批量距离计算
+#### 批量距离计算
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用BatchCalculation方法实现地址解析
 
@@ -108,7 +108,7 @@ BatchCalculation方法
     }]
 }
 ```
-* #### IP定位
+#### IP定位
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用IP方法实现IP定位
 
