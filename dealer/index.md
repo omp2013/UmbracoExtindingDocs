@@ -33,8 +33,9 @@ UE.Dealer组件是基于Umbraco CMS所开发的经销商模块。支持与百度
     > 2. 填写地址(address), 门店名称（Store Name）保存即可
 
 8. Templates模板调用
+
+#### `调用省份列表`
 ```C#
-// 调用省份列表
 var provinces = DealerUtil.GetProvinces();
 
 <select class="form-control" id="province">
@@ -44,10 +45,19 @@ var provinces = DealerUtil.GetProvinces();
         <option value="@province.Code">@province.Name</option>
     }
 </select>
-
-// 根据省份触发城市列表接口地址
-/umbraco/UmbracoDealer/FrontendDistrict/GetCitys
-
-// 经销商接口地址
-/umbraco/UmbracoDealer/FrontendDealer/GetDealers
 ```
+
+#### `根据省份触发城市列表接口地址`
+| 名称 | 内容 |
+| ---- | ---- |
+| 请求方式 | GET |
+| 输出格式 | JSON |
+| 接收参数 | code |
+| 接口地址 | /umbraco/UmbracoDealer/FrontendDistrict/GetCitys |
+
+#### `经销商接口地址`
+| 名称 | 内容 |
+| ---- | ---- |
+| 请求方式 | GET |
+| 输出格式 | JSON |
+| 接口地址 | /umbraco/UmbracoDealer/FrontendDealer/GetDealers |
