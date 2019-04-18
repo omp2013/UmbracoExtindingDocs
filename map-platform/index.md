@@ -4,9 +4,9 @@
 包含简单的百度云地图、QQ地图、高德地图解析对象。
 
 ### 封装方法
-1. 地址解析
-2. 批量距离计算
-3. IP定位
+1. [地址解析](index.md#地址解析)
+2. [批量距离计算](index.md#批量距离计算)
+3. [IP定位](index.md#IP定位)
 
 ### 安装教程
 
@@ -14,7 +14,7 @@
 
 ### 使用说明
 
-1. 地址解析
+#### 地址解析
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用Geocoder方法实现地址解析
 
@@ -59,7 +59,7 @@ Geocoder方法
 ```
 
 
-2. 批量距离计算
+#### 批量距离计算
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用BatchCalculation方法实现地址解析
 
@@ -108,7 +108,7 @@ BatchCalculation方法
     }]
 }
 ```
-3. IP定位
+#### IP定位
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用IP方法实现IP定位
 
