@@ -19,7 +19,7 @@
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用Geocoder方法实现地址解析
 
 
-```
+```C#
 IMaplatform baidu = SafelyMapManager.GetPlatform(Model.Platform.BAIDU, "获取相应平台秘钥KEY");
 var result = baidu.Geocoder("详细地址", "城市名称");
 ```
@@ -43,7 +43,7 @@ Geocoder方法
 
 正确时返回的JSON数据包如下
 
-```
+```json
 {
     "Status": 0,
     "AddressComponents": {
@@ -63,7 +63,7 @@ Geocoder方法
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用BatchCalculation方法实现地址解析
 
-```
+```C#
 IMaplatform baidu = SafelyMapManager.GetPlatform(Model.Platform.BAIDU, "获取相应平台秘钥KEY");
 var result = baidu.BatchCalculation(Model.Calculation.DRIVING, "起点坐标", "终点坐标");
 ```
@@ -84,7 +84,7 @@ BatchCalculation方法
 
 正确时返回的JSON数据包如下
 
-```
+```json
 {
     "Status": 0,
     "Result": [{
@@ -112,7 +112,7 @@ BatchCalculation方法
 
 使用SafelyMapManager类提供的GetPlatform方法, 再通过IMaplatform接口调用IP方法实现IP定位
 
-```
+```C#
 IMaplatform baidu = SafelyMapManager.GetPlatform(Model.Platform.BAIDU, "获取相应平台秘钥KEY");
 var result = baidu.IP("114.247.50.2");
 ```
@@ -131,7 +131,7 @@ IP方法
 
 正确时返回的JSON数据包如下
 
-```
+```json
 {
     "Status": 0,
     "Province": "北京市",
